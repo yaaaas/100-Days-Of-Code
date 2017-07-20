@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <h1>To-do List</h1>
+    <div>
+      
+      <button onclick = "handlers.toggleAll()">Toggle All Items</button>
+    </div>
+    
+    <div>
+    <input type = "text" placeholder = "Add Something!" id = "todo">
+    <button onclick = "handlers.submit()">Add It!</button>
+    </div>
+    
+    <div>
+    <input type = "text" placeholder = "Enter the Replacement" id = replace>
+    <input type = "number" placeholder = "Enter it's position" id = "pos">
+    <button onclick = "handlers.modify()">Modify It</button>
+    </div>
+    
+    <div>
+    <input type = "number" placeholder = "What d'ya wanna toggle" id = "toggle">
+    <button onclick = "handlers.toggle()">Toggle it</button>
+    </div>
+    
+    
+    <ul id = "ui">
+      
+    </ul>
+    
+    <script src="script.js"></script>
+  </body>
+
+</html>
