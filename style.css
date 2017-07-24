@@ -1,0 +1,39 @@
+/* Styles go here */
+body{
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+
+.profilepic {
+    display: block;
+    margin: auto;
+    width: 20%;
+    border-radius: 50%
+}
+
+.title{
+  font-family: Ubuntu+Mono
+}
+
+.basicinfo {
+  text-align:center
+}
+
+.question{
+  font-family: lobster;
+  font-size: 30px;
+}
+
+.displayimages {
+  margin-right: 20px
+}
+
+#titles {
+  margin-left: 10%;
+}
+
+.projects{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
