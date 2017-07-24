@@ -1,0 +1,121 @@
+/* Styles go here */
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.introduction{
+  margin: 25% 0;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGQ2w9ynr3Y1VTHkqn8Kz67s1tkHwaZXSAOrDdkKYFdPZcBK102g") fixed;
+  text-align: center;
+  
+}
+
+.rsvp{
+  font-family: sans-serif;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  transition: .5s;
+ cursor: pointer;
+ margin-top: 30px;
+  
+}
+
+.rsvp:hover{
+  background: transparent;
+  
+  
+}
+
+.rsvp:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*Sign Up form CSS*/
+
+input[type=text]{
+   
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.form {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 40%;
+    
+}
+
+
+
+/*CSS ends*/
+
+h1{
+  text-align: center;
+  font-size: 575%;
+  color: #4A4A44;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  
+}
+
+h4{
+  text-align: center;
+  font-size: 105%;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  
+  
+}
+
+
+h2{
+  padding-top: 20px;
+  font-family: Lobster;
+}
+.details{
+  margin: 25%;
+  text-align: center;
+}
+
+
+/*Parralax Starts*/
+
+.parallax {
+  background: url("http://idagon.net/wp-content/uploads/2014/05/Parallax-background.jpg") repeat fixed 100%;
+}
+.parallax-inner{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+/*Parallax Ends*/
